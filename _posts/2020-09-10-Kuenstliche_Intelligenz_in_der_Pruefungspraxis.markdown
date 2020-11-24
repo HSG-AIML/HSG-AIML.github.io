@@ -11,7 +11,7 @@ codeurl:
 dataurl:
 contactemail: marco.schreyer@unisg.ch
 language: German
-subjectareas: business studies, computer science
+tags: business_studies computer_science
 ---
 
 Während künstliche Intelligenz die Arbeitsweise verschiedener Berufsgruppen zunehmend und nachhaltig verändert, steckt ein solcher Wandel im Bereich der Wirtschaftsprüfung derzeit in seinen Anfängen. Der nachfolgende Beitrag soll Einsatzmöglichkeiten und Herausforderungen des maschinellen Lernens (ML), eines Teilgebiets der künstlichen Intelligenz, im Kontext der Abschlussprüfung aufzeigen.

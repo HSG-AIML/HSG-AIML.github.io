@@ -1,6 +1,6 @@
 ---
 title: Research Topics
-permalink: /research/
+layout: page
 ---
 
 Our research focuses on a wide range of deep learning methods and their applications to real-world data and issues.

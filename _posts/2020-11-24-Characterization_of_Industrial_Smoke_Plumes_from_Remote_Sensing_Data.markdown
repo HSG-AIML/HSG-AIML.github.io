@@ -11,7 +11,7 @@ codeurl: https://github.com/HSG-AIML/IndustrialSmokePlumeDetection
 dataurl: https://zenodo.org/record/4250706
 contactemail: michael.mommert@unisg.ch	
 language: English
-subjectareas: remote sensing, climate change, deep learning, classification, segmentation
+tags: remote_sensing climate_change deep_learning classification segmentation
 ---
 
 The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth's climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA's Sentinel-2 satellites.

@@ -42,12 +42,14 @@ contactemail:
 # publication language (e.g., English, German, ...)
 language:
 
-# subject areas (keywords); try to cover the following topics:
+# topical tags; try to cover the following topics:
 # - general field (e.g., remote sensing, TTS, financial data, ...)
 # - ML method (e.g., deep learning, gradient boosting, supervised learning,
 #              semi-supervised learning, self-supervised learning ...)
 # - task (e.g, classification, segmentation, representation learning, ...)
-subjectareas: 
+# important note: if your tag contains a whitespace, please replace the
+# whitespace by an underscore!
+tags: 
 ---
 
 ## A Headline
