@@ -21,7 +21,7 @@ url="/images/2020-11-24-Characterization_of_Industrial_Smoke_Plumes_from_Remote_
 description="Example images from our set of 21,350 images of industrial sites. Each column corresponds to one of 624 emitter locations. The top row shows the site during activity (smoke is present) and the bottom row during inactivity (smoke is absent). The origin region of the smoke plume is marked by red circles." %}
 
 
-### Classfication of Smoke Plumes 
+### Classification of Smoke Plumes 
 
 Using a modified ResNet-50, we can detect smoke plumes of different sizes with an accuracy of 94.3%. The model correctly ignores natural clouds and focuses on those imaging channels that are related to the spectral absorption from aerosols and water vapor, enabling the localization of smoke.
 
