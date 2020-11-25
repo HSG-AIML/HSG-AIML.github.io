@@ -14,12 +14,10 @@ language: English
 tags: remote_sensing climate_change deep_learning classification segmentation
 ---
 
-The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth's climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA's Sentinel-2 satellites.
-
 {% include figure.html
 url="/images/2020-11-24-Characterization_of_Industrial_Smoke_Plumes_from_Remote_Sensing_Data/example_panel.png"
 description="Example images from our set of 21,350 images of industrial sites. Each column corresponds to one of 624 emitter locations. The top row shows the site during activity (smoke is present) and the bottom row during inactivity (smoke is absent). The origin region of the smoke plume is marked by red circles." %}
-
+The major driver of global warming has been identified as the anthropogenic release of greenhouse gas (GHG) emissions from industrial activities. The quantitative monitoring of these emissions is mandatory to fully understand their effect on the Earth's climate and to enforce emission regulations on a large scale. In this work, we investigate the possibility to detect and quantify industrial smoke plumes from globally and freely available multi-band image data from ESA's Sentinel-2 satellites.
 
 ### Classification of Smoke Plumes 
 
@@ -35,4 +33,4 @@ We exploit this localization ability and train a U-Net segmentation model on a l
 
 {% include figure.html
 url="/images/2020-11-24-Characterization_of_Industrial_Smoke_Plumes_from_Remote_Sensing_Data/segmentation_example.png"
-description="Inference examples from our segmentation model. For different examples from our test sub-sample (columns), we show the RGB image (top row), a false color image (center row), and the footprint of the ground-truth labels (red areas) and predicted labels (green areas). In general, the segmentation model reliably identifies smoke plumes within some restritions." %}
+description="Inference examples from our segmentation model. For different examples from our test sub-sample (columns), we show the RGB image (top row), a false color image (center row), and the footprint of the ground-truth labels (red areas) and predicted labels (green areas). In general, the segmentation model reliably identifies smoke plumes with few limitations." %}

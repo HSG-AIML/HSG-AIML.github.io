@@ -52,6 +52,9 @@ language:
 tags: 
 ---
 
+Please start your post with a brief introduction paragraph. This paragraph will be display along with its title on the main page. Please note that this paragraph may contain an image, which will also be included on the main page...
+
+
 ## A Headline
 
 Feel free to use headlines to give your post more structure. Use short paragraphs instead of long texts.
