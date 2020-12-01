@@ -54,7 +54,7 @@ such as climate change monitoring, natural disaster recovery, or
 changes in land use and land cover over time.
 
 
-## Financial Data 
+## Analysis of Financial and Accounting Data
 
 <img alt="Financial Data Examples"
  src="/images/research/fraud_detection-900x509.png"
