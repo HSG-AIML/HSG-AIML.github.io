@@ -61,5 +61,4 @@ changes in land use and land cover over time.
  align="center"
  style="display:block; margin-left: auto; margin-right: auto; width:70%;">
 
-Our research in this area covers the analysis and forecasting of
-financial time-series data and audit data analytics. In the field of audit analytics, we research the interface of deep learning and financial audit. We aim to develop novel deep learning solutions to enhance conventional financial audit techniques, based on deep representation learning and privacy-preserving federated learning. Besides, we investigate the malicious misuse of deep learning to adversarially attack, computer-assisted audit techniques (CAATs) applied by auditors nowadays. 
+Our research in this area covers the analysis and forecasting of financial time-series data and audit data analytics. In the field of audit data analytics, we research the interface of deep learning, financial audit and accounting information systems. We aim to develop novel deep learning solutions to enhance conventional audit techniques, based on deep representation learning and privacy-preserving federated learning. Besides, we investigate the malicious misuse of deep learning apporaches to adversarially attack computer assisted audit techniques and misguide auditors. 
