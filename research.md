@@ -54,7 +54,7 @@ such as climate change monitoring, natural disaster recovery, or
 changes in land use and land cover over time.
 
 
-## Audit Data Analytics
+## Financial Data 
 
 <img alt="Financial Data Examples"
  src="/images/research/fraud_detection-900x509.png"
@@ -62,6 +62,4 @@ changes in land use and land cover over time.
  style="display:block; margin-left: auto; margin-right: auto; width:70%;">
 
 Our research in this area covers the analysis and forecasting of
-financial time-series data on the one hand and anomaly detection in
-transaction data on the other hand. Our research focuses in particular
-on financial markets and the audit domain.
+financial time-series data and audit data analytics. In the field of audit analytics, we research the interface of deep learning and financial audit. We aim to develop novel deep learning solutions to enhance conventional financial audit techniques, based on deep representation learning and privacy-preserving federated learning. Besides, we investigate the malicious misuse of deep learning to adversarially attack, computer-assisted audit techniques (CAATs) applied by auditors nowadays. 
