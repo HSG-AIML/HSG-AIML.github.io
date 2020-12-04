@@ -20,7 +20,7 @@ Our research focuses on a wide range of deep learning methods and their applicat
 
 * Can deep learning techniques be applied to learn disentangled representations of the latent generative factors of variation evident in accounting data?
     
-* Can such learned representations be useful for downstream audit tasks, such as the selection of representative audit samples or for the detection of accounting irregularities? 
+* Can such learned representations be useful for downstream audit tasks, such as (i) the selection of representative audit samples or (ii) the detection of accounting irregularities? 
 
 
 ## Adversarial Learning
