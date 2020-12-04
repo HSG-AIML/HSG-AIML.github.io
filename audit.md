@@ -5,7 +5,7 @@ layout: page
 
 Our research focuses on a wide range of deep learning methods and their applications to real-world data and issues.
 
-## Representation Learning
+## Representation Learning of Financial Accounting Data
 
 <img alt="Representation Learning Examples"
  src="/images/research/representation_learning-900x597.png"
