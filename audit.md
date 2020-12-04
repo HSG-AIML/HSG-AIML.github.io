@@ -1,11 +1,11 @@
 ---
-title: Research Topics
+title: Deep Learning of Financial Accounting Data
 layout: page
 ---
 
 Our research focuses on a wide range of deep learning methods and their applications to real-world data and issues.
 
-## Representation Learning of Financial Accounting Data
+## Representation Learning
 
 <img alt="Representation Learning Examples"
  src="/images/research/representation_learning-900x597.png"
