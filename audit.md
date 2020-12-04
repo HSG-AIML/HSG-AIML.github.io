@@ -37,14 +37,12 @@ Our research focuses on a wide range of deep learning methods and their applicat
  align="center"
  style="display:block; margin-left: auto; margin-right: auto; width:70%;">
 
-ToDo... 
+**Motivation:** Recent intriguing discoveries in deep learning research revealed that a variety of machine learning models, even simple regression models, are vulnerable and exhibit *"intrinsic blind spots"*. In computer vision, Szegedy et al. \citep{szegedy2013} and Goodfellow et al. \citep{goodfellow2014} were among the first who demonstrated that small perturbations added to an image, resulting in misclassifications by machine learning models. Such perturbations, referred to as *"adversarial examples"*, pose a threat to a variety of real-world applications e.g. autonomous driving \citep{evtimov2017}, speech recognition \citep{alzantot2018}, text generation \citep{chen2018} or reinforcement learning \citep{huang2017}. *"Adversarial attacks"* are deliberately designed to exploit such vulnerabilities and cause a machine learning model to make a mistake. In addition, another deep learning based attack type, referred to as *"deepfakes"*, gained considerable attention \citep{Mack2017}. Deepfakes denote convincingly manipulated media content \citep{agarwal2019}, e.g., by altering its audio and video content. Most of the alterations make a person appear to say or do something that the person never said or did. Instead of attacking a machine learning model, deepfakes are designed to directly target a human viewers visual and acoustic perception \citep{chesney2019a, chesney2019b}. The early detection of such deepfakes is of high relevance in the context of societal disinformation and are of serious concern in democratic discourses \citep{Sullivan2019}.
 
+**Application in Assurance & Audit:** The research of the potential impact of adversarial attacks and deepfakes in finance and accounting is still in an early stage. In the past, the creation of convincing deepfakes used to be reserved for a small group of highly trained professionals. With the advent of deep adversarial learning, it became broadly accessible within reach of almost any individual with a computer \citep{guera2018}. As a result, obtaining an understanding of how adversarial deep learning techniques can be maliciously misused to attack an audit is of vital relevance. This observation holds in particular for attack vectors designed to obfuscate fraudulent activities by the replacement or augmentation of accounting irregularities, e.g. to cover up the circumvention of an invoice approval border in the procure to pay process. Finally, as of now, it also seems unclear if state-of-the-art CAATs are able to detect such attacks.
 
-## Federated Learning
+**Research Questions:** The research of the potential impact of adversarial learning and corresponding attacks in the finance and particular accounting domain is still in an early stage. Therefore, in this context, we investigate the following research questions regarding the vulnerability of financial audits and associated analytical audit procedures by *"adversarial examples"* and *"deepfakes"*:
 
-<img alt="Remote Sensing Examples"
- src="/images/research/remote_sensing-900x694.png"
- align="center"
- style="display:block; margin-left: auto; margin-right: auto; width:70%;">
-
-ToDo... 
+* **Question 1:** Can adversarial deep learning techniques be misused to generate *"accounting fakes"* that misguide auditors in the professional judgement on particular audit evidence?
+    
+* **Question 2:** Can adversarial deep learning techniques be misused to *"learn attack vectors"* that misguide state-of-the-art CAATs on particular factual audit evidence?
