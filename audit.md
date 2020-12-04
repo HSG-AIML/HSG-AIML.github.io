@@ -45,4 +45,4 @@ Our research focuses on a wide range of deep learning methods and their applicat
 
 * **Question 1:** Can adversarial deep learning techniques be misused to generate *"accounting fakes"* that misguide auditors in the professional judgement on particular audit evidence?
     
-* **Question 2:** Can adversarial deep learning techniques be misused to *"learn attack vectors"* that misguide state-of-the-art CAATs on particular factual audit evidence?
+* **Question 2:** Can adversarial deep learning techniques be misused to learn *"attack vectors"* that misguide state-of-the-art CAATs on particular factual audit evidence?
