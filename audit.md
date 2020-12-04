@@ -22,7 +22,7 @@ Our research focuses on a wide range of deep learning methods and their applicat
     
 * **Question 2:** Can such learned representations be useful for downstream audit tasks, such as (i) the selection of representative audit samples or (ii) the detection of accounting irregularities? 
 
-**Publications:** 
+**Our Publications:** 
 
 > M. Schreyer, T. Sattarov, D. Borth, A. Dengel, and B. Reimer, **"Detection of Anomalies in Large Scale Accounting Data using Deep Autoencoder Networks"**, NVIDIA’s GPU Technology Conference, San José, California, USA, 2017 ([link](https://arxiv.org/abs/1709.05254)). 
 
