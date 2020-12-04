@@ -24,11 +24,11 @@ Our research focuses on a wide range of deep learning methods and their applicat
 
 **Publications:** 
 
-* M. Schreyer, T. Sattarov, D. Borth, A. Dengel, and B. Reimer, **"Detection of Anomalies in Large Scale Accounting Data using Deep Autoencoder Networks"**, NVIDIA’s GPU Technology Conference, San José, California, USA, 2017 ([link](https://arxiv.org/abs/1709.05254)). 
+> M. Schreyer, T. Sattarov, D. Borth, A. Dengel, and B. Reimer, **"Detection of Anomalies in Large Scale Accounting Data using Deep Autoencoder Networks"**, NVIDIA’s GPU Technology Conference, San José, California, USA, 2017 ([link](https://arxiv.org/abs/1709.05254)). 
 
-* M. Schreyer, T. Sattarov, C. Schulze, B. Reimer, and D. Borth, **"Detection of Accounting Anomalies in the Latent Space using Adversarial Autoencoder Neural Networks"**, ACM KDD Workshop on Anomaly Detection in Finance, Anchorage, Alaska, USA, 2019 ([link](https://arxiv.org/abs/1908.00734)).
+> M. Schreyer, T. Sattarov, C. Schulze, B. Reimer, and D. Borth, **"Detection of Accounting Anomalies in the Latent Space using Adversarial Autoencoder Neural Networks"**, ACM KDD Workshop on Anomaly Detection in Finance, Anchorage, Alaska, USA, 2019 ([link](https://arxiv.org/abs/1908.00734)).
 
-* M. Schreyer, T. Sattarov, A. Gierbl, B. Reimer, and D. Borth, **"Learning Sampling in Financial Statement Audits using Vector Quantised Autoencoder Neural Networks"**, ACM International Conference on AI in Finance, New York, USA, 2020 ([link](https://arxiv.org/abs/2008.02528)).
+> M. Schreyer, T. Sattarov, A. Gierbl, B. Reimer, and D. Borth, **"Learning Sampling in Financial Statement Audits using Vector Quantised Autoencoder Neural Networks"**, ACM International Conference on AI in Finance, New York, USA, 2020 ([link](https://arxiv.org/abs/2008.02528)).
 
 ## Adversarial Learning
 
