@@ -22,6 +22,13 @@ Our research focuses on a wide range of deep learning methods and their applicat
     
 * **Question 2:** Can such learned representations be useful for downstream audit tasks, such as (i) the selection of representative audit samples or (ii) the detection of accounting irregularities? 
 
+**Publications:** 
+
+* M. Schreyer, T. Sattarov, D. Borth, A. Dengel, and B. Reimer, **"Detection of Anomalies in Large Scale Accounting Data using Deep Autoencoder Networks"**, NVIDIA’s GPU Technology Conference, San José, California, USA, 2017. 
+
+* M. Schreyer, T. Sattarov, C. Schulze, B. Reimer, and D. Borth, **"Detection of Accounting Anomalies in the Latent Space using Adversarial Autoencoder Neural Networks"**, ACM SIGKDD Workshop on Anomaly Detection in Finance, Anchorage, Alaska, USA, 2019.
+
+* M. Schreyer, T. Sattarov, A. Gierbl, B. Reimer, and D. Borth, **"Learning Sampling in Financial Statement Audits using Vector Quantised Autoencoder Neural Networks"**, ACM International Conference on AI in Finance, New York, USA, 2020.
 
 ## Adversarial Learning
 
