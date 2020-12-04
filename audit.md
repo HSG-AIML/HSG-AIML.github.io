@@ -18,9 +18,9 @@ Our research focuses on a wide range of deep learning methods and their applicat
 
 **Derived Research Questions:** The research of the unsupervised learning of effective representations of accounting data without human supervision for downstream audit tasks is still in its infancy. Therefore, in this context, we investigate the following research questions regarding representation learning of accounting data:
 
-* Can deep learning techniques be applied to learn disentangled representations of the latent generative factors of variation evident in accounting data?
+* **Question 1:** Can deep learning techniques be applied to learn disentangled representations of the latent generative factors of variation evident in accounting data?
     
-* Can such learned representations be useful for downstream audit tasks, such as (i) the selection of representative audit samples or (ii) the detection of accounting irregularities? 
+* **Question 2:** Can such learned representations be useful for downstream audit tasks, such as (i) the selection of representative audit samples or (ii) the detection of accounting irregularities? 
 
 
 ## Adversarial Learning
