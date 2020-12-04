@@ -5,7 +5,7 @@ layout: page
 
 Our research focuses on a wide range of deep learning methods and their applications to real-world data and issues.
 
-## Representation Learning of Financial Accounting Data
+## Representation Learning in Financial Accounting Data
 
 <img alt="Representation Learning Examples"
  src="/images/research/representation_learning-900x597.png"
@@ -30,7 +30,7 @@ Our research focuses on a wide range of deep learning methods and their applicat
 
 > M. Schreyer, T. Sattarov, A. Gierbl, B. Reimer, and D. Borth, **"Learning Sampling in Financial Statement Audits using Vector Quantised Autoencoder Neural Networks"**, ACM International Conference on AI in Finance, New York, USA, 2020. [[paper](https://arxiv.org/abs/2008.02528)]
 
-## Representation Learning of Financial Accounting Data
+## Adversarial Learning in Financial Accounting Data
 
 <img alt="Multimodal Data Examples"
  src="/images/research/visual_audio-1-900x1031.png"
