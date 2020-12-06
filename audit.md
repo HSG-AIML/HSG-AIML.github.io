@@ -22,7 +22,7 @@ Our research focuses on a wide range of deep learning methods and their applicat
 > M. Schreyer, T. Sattarov, D. Borth, A. Dengel, and B. Reimer, **"Detection of Anomalies in Large Scale Accounting Data using Deep Autoencoder Networks"**, NVIDIA’s GPU Technology Conference, San José, USA, 2017. [[paper](https://arxiv.org/abs/1709.05254)] [[code](https://github.com/GitiHubi/deepAI)] 
 
 {% include figure.html url="/images/research/representation_learning_anomaly_a-900x260.png" 
-description="Journal entry reconstruction error RE obtained for each of the 307.457 journal entries xi contained in dataset A after 10 (left), 100 (middle) and 400 (right) training epochs. The deep autoencoder (AE 8) learns to distinguish global anomalies (orange) and local anomalies (red) from original journal entries (blue) with progressing training epochs." %}
+description="Journal entry reconstruction error RE obtained for each of the 307.457 journal entries contained after 10 (left), 100 (middle) and 400 (right) training epochs. The deep autoencoder learns to distinguish global anomalies (orange) and local anomalies (red) from original journal entries (blue) with progressing training epochs." %}
 
 > M. Schreyer, T. Sattarov, C. Schulze, B. Reimer, and D. Borth, **"Detection of Accounting Anomalies in the Latent Space using Adversarial Autoencoder Networks"**, ACM KDD Workshop on Anomaly Detection in Finance, Anchorage, USA, 2019. [[paper](https://arxiv.org/abs/1908.00734)] [[code](https://github.com/GitiHubi/deepAD)]
 
