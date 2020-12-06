@@ -49,6 +49,6 @@ Our research focuses on a wide range of deep learning methods and their applicat
 > M. Schreyer, T. Sattarov, B. Reimer, and D. Borth, **"Adversarial Learning of Deepfakes in Accounting"**, NeurIPS 2019 Workshop on Robust AI in Financial Services: Data, Fairness, Explainability, Trustworthiness, and Privacy, Vancouver, Canada, 2019. [[paper](https://arxiv.org/abs/1910.03810)]
 
 {% include figure.html url="/images/research/adversarial_learning-900x240.png" 
-description="Example images from our set of 21,350 images of industrial sites. Each column corresponds to one of 624 emitter locations. The top row shows the site during activity (smoke is present) and the bottom row during inactivity (smoke is absent). The origin region of the smoke plume is marked by red circles." %}
+description="Robust adversarial journal entry sampling: (a) the combination sampling map in $Z$ of the local posting amount attribute in Data-A, (b) the corresponding robustness sampling map, (c) the obtained adversarial sampling region $q_{s}(z_{k=14})$ combining (a) and (b) with $d_{\phi}(z) \geq 0.568$, and, (d) generated adversarial journal entries $X_{Adv}$ when sampling along the posting amount trajectory resulting in generated entries that exhibit an increased posting amount." %}
 
 > M. Schreyer, C.Schulze, and D. Borth, **"Leaking Sensitive Financial Accounting Data in Plain Sight using Deep Autoencoder Neural Networks"**, AAAI 2021 Workshop on Knowledge Discovery from Unstructured Data in Financial Services, Virtual, 2021. [to appear]
