@@ -5,10 +5,10 @@ layout: page
 
 Our research focuses on a wide range of deep learning methods and their applications to real-world data and issues.
 
-## Representation Learning in Financial Accounting Data
+## Representation Learning
 
 {% include figure_header.html url="/images/research/representation_learning_header-900x311.png" 
-description="The VQ-VAE architecture (<a href="https://arxiv.org/abs/1711.00937">van den Oord et al., 2018</a>), applied to learn audit sampling. During the models forward pass, an input journal entry x<sub>i</sub> is passed through the encoder network q<sub>&theta;</sub> producing a latent representation z<sub>e</sub>. The VQ-VAE quantises z<sub>e</sub> using a codebook of embedding vectors e<sub>j</sub>. Afterwards, the quantised embedding z<sub>q</sub> is passed to the decoder network p<sub>&phi;</sub> to reconstruct the journal entry as faithfully as possible" %}
+description="The VQ-VAE architecture, applied to learn a representative and human interpretable audit sample of the journal entries generative latent factors" %}
 
 **Motivation:** *"Representation Learning"* refers to the learning of data representations that correspond to more abstract, and ultimately more useful, information for a given downstream task ([Ridgeway, 2016](https://arxiv.org/abs/1612.05299)). The objective of *"unsupervised"* representation learning is to learn representations that expose semantic features as disentangled generative factors without human supervision ([Chen et al., 2016](https://arxiv.org/abs/1606.03657)). For example, for a dataset of faces, a useful disentangled representation may allocate a separate set of dimensions for each of the following attributes: facial expression, eye colour, hairstyle, presence or absence of eyeglasses. Formally, a disentangled representation can be defined as one where *"single latent units are sensitive to changes in single generative factors while being relatively invariant to changes in other factors"* ([Bengio et al., 2016](https://arxiv.org/abs/1206.5538)). <!-- Nowadays, the unsupervised learning of a disentangled posterior distribution over a dataset's underlying generative factors is the subject of active research \citep{kingma2013, rezende2015, higgins2016, dinh2016, kim2018}. -->
 
@@ -37,7 +37,10 @@ description="Adversarial Autoencoder latent space distribution with progressing 
 {% include figure.html url="/images/research/representation_learning_sampling-900x311.png" 
 description="VQ-VAE vector quantisation of payments and corresponding audit samples represented by the models learned embeddings e<sub>k</sub>, for k = argmin<sub>j</sub> ||z<sub>e</sub>(x)−e<sub>j</sub>||<sub>2</sub>. For each entry x<sub>i</sub> VQ-VAE infers a low-dimensional representation z<sub>e</sub> in the latent space Z. The distinct representations z<sub>e</sub> are quantised z<sub>q</sub> by the embeddings e<sub>k</sub>." %}
 
-## Adversarial Learning in Financial Accounting Data
+## Adversarial Learning
+
+{% include figure_header.html url="/images/research/adversarial_learning_header-900x460.png" 
+description="The adversarial autoencoder architecture, applied to learn a disentangled and human interpretable representation of the journal entries generative latent factors." %}
 
 **Motivation:** Intriguing discoveries in deep learning research revealed that a variety of machine learning models, even simple regression models, are vulnerable and exhibit *"intrinsic blind spots"*. In computer vision, ([Szegedy et al., 2013](https://arxiv.org/abs/1312.6199)) and ([Goodfellow et al., 2014](https://arxiv.org/abs/1910.03810)) were among the first who demonstrated that small perturbations added to an image, resulting in misclassifications by machine learning models. Such perturbations, referred to as *"adversarial examples"*, pose a threat to a variety of real-world applications e.g. autonomous driving ([Eykholt et al., 2017](https://arxiv.org/abs/1707.08945)), speech recognition ([Alzantot et al., 2018](https://arxiv.org/abs/1801.00554)), text generation ([Chen et al., 2018](https://arxiv.org/abs/1809.06297)) or reinforcement learning ([Huang et al., 2018](https://arxiv.org/abs/1702.02284)). *"Adversarial attacks"* are deliberately designed to exploit such vulnerabilities and cause a machine learning model to make a mistake. 
 
