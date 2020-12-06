@@ -7,11 +7,6 @@ Our research focuses on a wide range of deep learning methods and their applicat
 
 ## Representation Learning in Financial Accounting Data
 
-<img alt="Representation Learning Examples"
- src="/images/research/representation_learning-900x597.png"
- align="center"
- style="display:block; margin-left: auto; margin-right: auto; width:70%;"/>
-
 **Motivation:** *"Representation Learning"* refers to the learning of data representations that correspond to more abstract, and ultimately more useful, information for a given downstream task ([Ridgeway, 2016](https://arxiv.org/abs/1612.05299)). The objective of *"unsupervised"* representation learning is to learn representations that expose semantic features as disentangled generative factors without human supervision ([Chen et al., 2016](https://arxiv.org/abs/1606.03657)). For example, for a dataset of faces, a useful disentangled representation may allocate a separate set of dimensions for each of the following attributes: facial expression, eye colour, hairstyle, presence or absence of eyeglasses. Formally, a disentangled representation can be defined as one where *"single latent units are sensitive to changes in single generative factors while being relatively invariant to changes in other factors"* ([Bengio et al., 2016](https://arxiv.org/abs/1206.5538)). <!-- Nowadays, the unsupervised learning of a disentangled posterior distribution over a dataset's underlying generative factors is the subject of active research \citep{kingma2013, rezende2015, higgins2016, dinh2016, kim2018}. -->
 
 **Application in Assurance & Audit:** Accounting data arises from the interaction of a complex set of generative factors. Currently, the performance of *"Computer Assisted Audit Techniques (CAATs)"* significantly depends on the choice of data representations, also referred to as *"features"*, of the accounting data's inherent generative factors. The handcrafted engineering of such representations is a way to take advantage of a human auditor's ingenuity and prior knowledge. However, the inability of CAATs to extract and disentangle such discriminative information themselves highlights a disadvantage. Furthermore, the handcrafting of such representations often results in a labour intensive effort. Ultimately, it may introduce an undesired bias into the learned deep model. Therefore, the learning of such representation directly *"end-to-end"* and suitable for a given audit task defines a next evolutionary step in expanding the capabilities of CAATs.
@@ -25,6 +20,9 @@ Our research focuses on a wide range of deep learning methods and their applicat
 **Our Publications:** 
 
 > M. Schreyer, T. Sattarov, D. Borth, A. Dengel, and B. Reimer, **"Detection of Anomalies in Large Scale Accounting Data using Deep Autoencoder Networks"**, NVIDIA’s GPU Technology Conference, San José, USA, 2017. [[paper](https://arxiv.org/abs/1709.05254)] [[code](https://github.com/GitiHubi/deepAI)] 
+
+{% include figure.html url="/images/research/representation_learning_anomaly_a-900x260.png" 
+description="Journal entry reconstruction error RE obtained for each of the 307.457 journal entries xi contained in dataset A after 10 (left), 100 (middle) and 400 (right) training epochs. The deep autoencoder (AE 8) learns to distinguish global anomalies (orange) and local anomalies (red) from original journal entries (blue) with progressing training epochs." %}
 
 > M. Schreyer, T. Sattarov, C. Schulze, B. Reimer, and D. Borth, **"Detection of Accounting Anomalies in the Latent Space using Adversarial Autoencoder Networks"**, ACM KDD Workshop on Anomaly Detection in Finance, Anchorage, USA, 2019. [[paper](https://arxiv.org/abs/1908.00734)] [[code](https://github.com/GitiHubi/deepAD)]
 
