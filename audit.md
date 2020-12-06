@@ -1,5 +1,5 @@
 ---
-title: Deep Learning and Assurance & Audit
+title: Deep Learning in Assurance & Financial Audit
 layout: page
 ---
 
