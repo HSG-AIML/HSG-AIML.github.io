@@ -32,10 +32,8 @@ Our research focuses on a wide range of deep learning methods and their applicat
 
 ## Adversarial Learning in Financial Accounting Data
 
-<img alt="Multimodal Data Examples"
- src="/images/research/adversarial_learning-900x240.png"
- align="center"
- style="display:block; margin-left: auto; margin-right: auto; width:70%;">
+{% include figure.html url="/images/research/adversarial_learning-900x240.png" 
+description="Example images from our set of 21,350 images of industrial sites. Each column corresponds to one of 624 emitter locations. The top row shows the site during activity (smoke is present) and the bottom row during inactivity (smoke is absent). The origin region of the smoke plume is marked by red circles." %}
 
 **Motivation:** Intriguing discoveries in deep learning research revealed that a variety of machine learning models, even simple regression models, are vulnerable and exhibit *"intrinsic blind spots"*. In computer vision, ([Szegedy et al., 2013](https://arxiv.org/abs/1312.6199)) and ([Goodfellow et al., 2014](https://arxiv.org/abs/1910.03810)) were among the first who demonstrated that small perturbations added to an image, resulting in misclassifications by machine learning models. Such perturbations, referred to as *"adversarial examples"*, pose a threat to a variety of real-world applications e.g. autonomous driving ([Eykholt et al., 2017](https://arxiv.org/abs/1707.08945)), speech recognition ([Alzantot et al., 2018](https://arxiv.org/abs/1801.00554)), text generation ([Chen et al., 2018](https://arxiv.org/abs/1809.06297)) or reinforcement learning ([Huang et al., 2018](https://arxiv.org/abs/1702.02284)). *"Adversarial attacks"* are deliberately designed to exploit such vulnerabilities and cause a machine learning model to make a mistake. 
 
