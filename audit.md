@@ -50,4 +50,5 @@ Our research focuses on a wide range of deep learning methods and their applicat
 **Our Publications:** 
 
 > M. Schreyer, T. Sattarov, B. Reimer, and D. Borth, **"Adversarial Learning of Deepfakes in Accounting"**, NeurIPS 2019 Workshop on Robust AI in Financial Services: Data, Fairness, Explainability, Trustworthiness, and Privacy, Vancouver, Canada, 2019. [[paper](https://arxiv.org/abs/1910.03810)]
+
 > M. Schreyer, C.Schulze, and D. Borth, **"Leaking Sensitive Financial Accounting Data in Plain Sight using Deep Autoencoder Neural Networks"**, AAAI 2021 Workshop on Knowledge Discovery from Unstructured Data in Financial Services, Virtual, 2021. [to apper]
