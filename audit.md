@@ -32,7 +32,7 @@ description="Adversarial Autoencoder latent space distribution with progressing 
 > M. Schreyer, T. Sattarov, A. Gierbl, B. Reimer, and D. Borth, **"Learning Sampling in Financial Statement Audits using Vector Quantised Autoencoder Neural Networks"**, ACM International Conference on AI in Finance, New York, USA, 2020. [[paper](https://arxiv.org/abs/2008.02528)]
 
 {% include figure.html url="/images/research/representation_learning_sampling-900x311.png" 
-description="VQ-VAE vector quantisation of city payments and corresponding audit samples represented by the models learnedembeddings𝑒𝑘,for k = argmin<sub>j</sub> ||z<sub>e</sub>(x)−e<sub>j</sub>||<sub>2</sub>. For each entry x<sub>i</sub> VQ-VAE infers a low-dimensional representation𝑧𝑒 in the latent space Z. The distinct representations z<sub>e</sub> are quantised z<sub>q</sub> by the embeddings e<sub>k</sub>. As a result, the quantisations z<sub>q</sub> constitute a set of representative audit samples of the original entry population X." %}
+description="VQ-VAE vector quantisation of payments and corresponding audit samples represented by the models learned embeddings e<sub>k</sub>, for k = argmin<sub>j</sub> ||z<sub>e</sub>(x)−e<sub>j</sub>||<sub>2</sub>. For each entry x<sub>i</sub> VQ-VAE infers a low-dimensional representation z<sub>e</sub> in the latent space Z. The distinct representations z<sub>e</sub> are quantised z<sub>q</sub> by the embeddings e<sub>k</sub>." %}
 
 ## Adversarial Learning in Financial Accounting Data
 
