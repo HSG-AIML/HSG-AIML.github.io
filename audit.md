@@ -26,7 +26,7 @@ description="Journal entry reconstruction error RE obtained for each of the 307.
 
 > M. Schreyer, T. Sattarov, C. Schulze, B. Reimer, and D. Borth, **"Detection of Accounting Anomalies in the Latent Space using Adversarial Autoencoder Networks"**, ACM KDD Workshop on Anomaly Detection in Finance, Anchorage, USA, 2019. [[paper](https://arxiv.org/abs/1908.00734)] [[code](https://github.com/GitiHubi/deepAD)]
 
-{% include figure.html url="/images/research/representation_learning_anomaly_a-900x260.png" 
+{% include figure.html url="/images/research/representation_learning_anomaly_b-900x260.png" 
 description="Adversarial Autoencoder latent space distribution with progressing network training: imposed prior distribution p(z) consisting of a mixture of &tau; = 10 Gaussians (left), learned aggregated posterior distribution g<sub>&theta;</sub>(z|x) after 100 training epochs (center), learned aggregated posterior distribution g<sub>&theta;</sub>(z|x) after 2,000 training epochs (right)." %}
 
 > M. Schreyer, T. Sattarov, A. Gierbl, B. Reimer, and D. Borth, **"Learning Sampling in Financial Statement Audits using Vector Quantised Autoencoder Neural Networks"**, ACM International Conference on AI in Finance, New York, USA, 2020. [[paper](https://arxiv.org/abs/2008.02528)]
