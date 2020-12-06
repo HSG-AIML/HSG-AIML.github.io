@@ -3,7 +3,9 @@ title: Deep Learning in Assurance & Financial Audit
 layout: page
 ---
 
-Our research focuses on a wide range of deep learning methods and their applications to real-world data and issues.
+The developments in information technology, such as modern database technologies, the advances ofend-to-end data communication and cloud computing, led to a multitude of efforts by organizations to digitize their business processes progressively. This digital transformation resulted, among others,in the advent of modern "Enterprise Resource Planning (ERP)" systems and fundamentally changed the nature and source of audit evidence. Nowadays, such systems, administrate a wide variety of financial accounting relevant processes, controls and reports built around relational database systems. As a result, ERP systems steadily collect vast quantities of audit relevant information at a granular level. 
+
+The objective of this research endevour is the investigation of the applicability of deep learning as a novel analytical audit procedure in the context of financial statement audits. Thereby our research examines a new avenue of how auditors can use the advantages that deep-learning promises and are already applicable in other domains. In detail, we aim to investigate the following directions of research:
 
 ## Representation Learning
 
