@@ -32,7 +32,7 @@ description="Journal entry reconstruction error RE obtained for each of the 307.
 {% include figure.html url="/images/research/representation_learning_anomaly_b-900x260.png" 
 description="Adversarial Autoencoder latent space distribution with progressing network training: imposed prior distribution p(z) consisting of a mixture of &tau; = 10 Gaussians (left), learned aggregated posterior distribution g<sub>&theta;</sub>(z|x) after 100 training epochs (center), learned aggregated posterior distribution g<sub>&theta;</sub>(z|x) after 2,000 training epochs (right)." %}
 
-> M. Schreyer, T. Sattarov, A. Gierbl, B. Reimer, and D. Borth, **"Learning Sampling in Financial Statement Audits using Vector Quantised Autoencoder Neural Networks"**, ACM International Conference on AI in Finance, New York, USA, 2020. [[paper](https://arxiv.org/abs/2008.02528)]
+> M. Schreyer, T. Sattarov, A. Gierbl, B. Reimer, and D. Borth, **"Learning Sampling in Financial Statement Audits using Vector Quantised Autoencoder Neural Networks"**, ACM International Conference on AI in Finance, New York, USA, 2020. [[paper](https://arxiv.org/abs/2008.02528)][[slides](https://github.com/HSG-AIML/HSG-AIML.github.io/blob/master/slides/2020-10-16_ICAIF_2020.pdf)]
 
 {% include figure.html url="/images/research/representation_learning_sampling-900x311.png" 
 description="VQ-VAE vector quantisation of payments and corresponding audit samples represented by the models learned embeddings e<sub>k</sub>, for k = argmin<sub>j</sub> ||z<sub>e</sub>(x)−e<sub>j</sub>||<sub>2</sub>. For each entry x<sub>i</sub> VQ-VAE infers a low-dimensional representation z<sub>e</sub> in the latent space Z. The distinct representations z<sub>e</sub> are quantised z<sub>q</sub> by the embeddings e<sub>k</sub>." %}
@@ -56,7 +56,7 @@ description="The adversarial autoencoder architecture, applied to learn a disent
 
 **Our Publications:** 
 
-> M. Schreyer, T. Sattarov, B. Reimer, and D. Borth, **"Adversarial Learning of Deepfakes in Accounting"**, NeurIPS 2019 Workshop on Robust AI in Financial Services: Data, Fairness, Explainability, Trustworthiness, and Privacy, Vancouver, Canada, 2019. [[paper](https://arxiv.org/abs/1910.03810)][[talk](https://slideslive.com/38922290/oral-presentations-fairness-explainability-and-trustworthiness?locale=en)][[slides][https://github.com/HSG-AIML/HSG-AIML.github.io/blob/master/slides/2019-12-13_NeurIPS_2019.pdf]]
+> M. Schreyer, T. Sattarov, B. Reimer, and D. Borth, **"Adversarial Learning of Deepfakes in Accounting"**, NeurIPS 2019 Workshop on Robust AI in Financial Services: Data, Fairness, Explainability, Trustworthiness, and Privacy, Vancouver, Canada, 2019. [[paper](https://arxiv.org/abs/1910.03810)][[talk](https://slideslive.com/38922290/oral-presentations-fairness-explainability-and-trustworthiness?locale=en)][[slides](https://github.com/HSG-AIML/HSG-AIML.github.io/blob/master/slides/2019-12-13_NeurIPS_2019.pdf)]
 
 {% include figure.html url="/images/research/adversarial_learning-900x240.png" 
 description="Adversarial journal entry sampling: (a) the combination sampling map in Z of the local posting amount attribute, (b) the corresponding sampling map, (c) the obtained adversarial sampling region q<sub>s</sub>(z<sub>k=14</sub>) combining (a) and (b) with d<sub>&phi;</sub>(z) ≥ 0.568, and, (d) generated adversarial journal entries X<sub>Adv</sub> when sampling along the amount trajectory." %}
