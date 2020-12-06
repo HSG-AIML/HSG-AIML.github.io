@@ -56,7 +56,7 @@ description="The adversarial autoencoder architecture, applied to learn a disent
 
 **Our Publications:** 
 
-> M. Schreyer, T. Sattarov, B. Reimer, and D. Borth, **"Adversarial Learning of Deepfakes in Accounting"**, NeurIPS 2019 Workshop on Robust AI in Financial Services: Data, Fairness, Explainability, Trustworthiness, and Privacy, Vancouver, Canada, 2019. [[paper](https://arxiv.org/abs/1910.03810)][[talk](https://slideslive.com/38922290/oral-presentations-fairness-explainability-and-trustworthiness?locale=en)]
+> M. Schreyer, T. Sattarov, B. Reimer, and D. Borth, **"Adversarial Learning of Deepfakes in Accounting"**, NeurIPS 2019 Workshop on Robust AI in Financial Services: Data, Fairness, Explainability, Trustworthiness, and Privacy, Vancouver, Canada, 2019. [[paper](https://arxiv.org/abs/1910.03810)][[talk](https://slideslive.com/38922290/oral-presentations-fairness-explainability-and-trustworthiness?locale=en)][[slides][https://github.com/HSG-AIML/HSG-AIML.github.io/blob/master/slides/2019-12-13_NeurIPS_2019.pdf]]
 
 {% include figure.html url="/images/research/adversarial_learning-900x240.png" 
 description="Adversarial journal entry sampling: (a) the combination sampling map in Z of the local posting amount attribute, (b) the corresponding sampling map, (c) the obtained adversarial sampling region q<sub>s</sub>(z<sub>k=14</sub>) combining (a) and (b) with d<sub>&phi;</sub>(z) ≥ 0.568, and, (d) generated adversarial journal entries X<sub>Adv</sub> when sampling along the amount trajectory." %}
