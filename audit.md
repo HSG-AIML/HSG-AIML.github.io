@@ -33,7 +33,7 @@ Our research focuses on a wide range of deep learning methods and their applicat
 ## Adversarial Learning in Financial Accounting Data
 
 <img alt="Multimodal Data Examples"
- src="/images/research/visual_audio-1-900x1031.png"
+ src="/images/research/adversarial_learning-900x240.png"
  align="center"
  style="display:block; margin-left: auto; margin-right: auto; width:70%;">
 
