@@ -54,11 +54,11 @@ such as climate change monitoring, natural disaster recovery, or
 changes in land use and land cover over time.
 
 
-## Analysis of Financial- and Accounting-Data
+## Deep Learning in Assurance & Financial Audit
 
 <img alt="Financial Data Examples"
  src="/images/research/fraud_detection-900x509.png"
  align="center"
  style="display:block; margin-left: auto; margin-right: auto; width:70%;">
 
-Our research in this area covers the analysis and forecasting of financial time-series data and audit data analytics. In the field of audit data analytics, we research the interface of deep learning, financial audit and accounting information systems. We aim to develop novel deep learning solutions to enhance conventional audit techniques, based on deep representation learning and privacy-preserving federated learning. Besides, we investigate the malicious misuse of deep learning apporaches to adversarially attack computer assisted audit techniques and misguide auditors. 
+Our research in this area covers the analysis and forecasting of financial time-series data and audit data analytics. In the field of audit data analytics, we research the interface of deep learning, financial audit and accounting information systems. We aim to develop novel deep learning solutions to enhance conventional audit techniques, based on deep representation learning and privacy-preserving federated learning. Besides, we investigate the malicious misuse of deep learning apporaches to adversarially attack computer assisted audit techniques and misguide auditors (). 
