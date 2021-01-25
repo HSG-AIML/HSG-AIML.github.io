@@ -66,4 +66,4 @@ description="Adversarial journal entry sampling: (a) the combination sampling ma
 > M. Schreyer, C. Schulze, and D. Borth, **"Leaking Sensitive Financial Accounting Data in Plain Sight using Deep Autoencoder Neural Networks"**, AAAI 2021 Workshop on Knowledge Discovery from Unstructured Data in Financial Services, Virtual, 2021. [[paper](https://www.alexandria.unisg.ch/261665/1/AAAI_2021_preprint.pdf)]
 
 {% include figure.html url="/images/research/adversarial_learning_leakage_900x266.png" 
-description="The data leakage process as introduced in ([Baluja, 2017](https://dl.acm.org/doi/abs/10.5555/3294771.3294968)), applied to learn a steganographic model of real-world accounting data. The process is designed to encode and decode sensitive Enterprise Resource Planing (ERP) system information into unobtrusive ‘day-to-day’ cover images." %}
+description="The data leakage process as introduced, applied to learn a steganographic model of real-world accounting data. The process is designed to encode and decode sensitive Enterprise Resource Planing (ERP) system information into unobtrusive ‘day-to-day’ cover images." %}
