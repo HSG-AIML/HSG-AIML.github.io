@@ -1,6 +1,6 @@
 ---
 authors: <strong>Marco Schreyer</strong>, Christian Schulze, Damian Borth
-date: 2020-09-10
+date: 2021-01-26
 layout: post
 title: Leaking Sensitive Financial Accounting Data in Plain Sight using Deep Autoencoder Neural Networks
 itemtype: Workshop Paper
