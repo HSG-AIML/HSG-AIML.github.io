@@ -11,7 +11,7 @@ codeurl:
 dataurl:
 contactemail: marco.schreyer@unisg.ch
 language: English
-tags: audit_data_analytics financial_audit
+tags: audit_data_analytics financial_audit deep_learning
 ---
 
 {% include figure.html url="/images/2021-01-26-Leaking_Sensitive_Accounting_Data/example_process.png" 
