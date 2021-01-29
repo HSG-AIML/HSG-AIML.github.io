@@ -39,26 +39,29 @@ we aim to develop novel approaches for speaker embedding, prosody
 control, and voice transfer.
 
 
-## Remote Sensing
+## Knowledge Extraction from Remote Sensing with Deep Neural Networks
 
-<img alt="Remote Sensing Examples"
- src="/images/research/remote_sensing-900x694.png"
+<a href="remote_sensing.html"><img alt="Remote Sensing Examples"
+ src="/images/research/remote_sensing_2021.png"
  align="center"
- style="display:block; margin-left: auto; margin-right: auto; width:70%;">
+ style="display:block; margin-left: auto; margin-right: auto; width:70%; height: auto;"></a>
 
-We are interested in how we can utilize the vast amount of remote
-sensing data for earth observation. In particular, we aim to develop
-novel deep neural networks architectures able to consume the full
-ensemble of spectral bands from today’s satellites for applications
-such as climate change monitoring, natural disaster recovery, or
-changes in land use and land cover over time.
-
+Remote sensing satellites generate a plethora of data on a daily basis. Given the 
+amount of data and their high complexity, deep learning method have proven
+extremely useful in their analysis and interpretation. In our lab, we utilize 
+multi-band and multi-modal remote sensing data from a variety of Earth-observing satellites and combine
+them with complementary data sets to address focused research questions. We
+apply tailored deep learning models to solve tasks like classification, regression, 
+image segmentation, as well as object detection based on state-of-the-art 
+research results. Our research tackles imminent problems related to 
+climate change, pollution, and disaster relief, as well as socio-economic questions. 
+(<a href="remotesensing.html">more...</a>)
 
 ## Deep Learning in Assurance & Financial Audit
 
-<img alt="Financial Data Examples"
+<a href="audit.html"><img alt="Financial Data Examples"
  src="/images/research/fraud_detection-900x509.png"
  align="center"
- style="display:block; margin-left: auto; margin-right: auto; width:70%;">
+ style="display:block; margin-left: auto; margin-right: auto; width:70%;"></a>
 
-Our research in this area covers the analysis and forecasting of financial time-series data and audit data analytics. In the field of audit data analytics, we research the interface of deep learning, financial audit and accounting information systems. We aim to develop novel deep learning solutions to enhance conventional audit techniques, based on deep representation learning and privacy-preserving federated learning. Besides, we investigate the malicious misuse of deep learning apporaches to adversarially attack computer assisted audit techniques and misguide auditors (<a href="https://hsg-aiml.github.io/audit.html">more...</a>). 
+Our research in this area covers the analysis and forecasting of financial time-series data and audit data analytics. In the field of audit data analytics, we research the interface of deep learning, financial audit and accounting information systems. We aim to develop novel deep learning solutions to enhance conventional audit techniques, based on deep representation learning and privacy-preserving federated learning. Besides, we investigate the malicious misuse of deep learning apporaches to adversarially attack computer assisted audit techniques and misguide auditors. (<a href="audit.html">more...</a>) 
