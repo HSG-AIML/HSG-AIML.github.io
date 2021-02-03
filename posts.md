@@ -1,13 +1,17 @@
 ---
-title: Research Items
+title: Publications
 layout: page
 ---
 
-{% for tag in site.tags %}
+Please find below a list of feature publications from our lab:
+
+
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-  <h4 id="{{ t | downcase }}">{{ t | replace: "_", " " | downcase }}</h4>
+  <h4 id="{{ t | downcase }}">{{ t | replace: "_", " " | upcase }}</h4>
   <ul>
   {% for post in posts %}
     {% if post.tags contains t %}
