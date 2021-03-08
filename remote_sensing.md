@@ -1,5 +1,5 @@
 ---
-title: Knowledge Extraction from Remote Sensing with Deep Neural Networks
+title: Remote Sensing with Deep Neural Networks
 layout: page
 ---
 
