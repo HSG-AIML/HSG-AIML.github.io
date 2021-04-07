@@ -3,8 +3,8 @@ authors: <strong>Michael Mommert</strong>, Mario Sigel, Marcel Neuhausler, Linus
 date: 2020-11-24
 layout: post
 title: Characterization of Industrial Smoke Plumes from Remote Sensing Data
-itemtype: Conference Workshop Poster
-publisher: Tackling Climate Change with Machine Learning workshop at NeurIPS 2020
+itemtype: Workshop Paper
+publisher: NeurIPS'20 - Workshop on Tackling Climate Change with Machine Learning
 puburl: https://arxiv.org/abs/2011.11344
 pdfurl: https://arxiv.org/pdf/2011.11344
 codeurl: https://github.com/HSG-AIML/IndustrialSmokePlumeDetection

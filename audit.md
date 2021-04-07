@@ -63,4 +63,7 @@ description="The adversarial autoencoder architecture, applied to learn a disent
 {% include figure.html url="/images/research/adversarial_learning-900x240.png" 
 description="Adversarial journal entry sampling: (a) the combination sampling map in Z of the local posting amount attribute, (b) the corresponding sampling map, (c) the obtained adversarial sampling region q<sub>s</sub>(z<sub>k=14</sub>) combining (a) and (b) with d<sub>&phi;</sub>(z) ≥ 0.568, and, (d) generated adversarial journal entries X<sub>Adv</sub> when sampling along the amount trajectory." %}
 
-> M. Schreyer, C. Schulze, and D. Borth, **"Leaking Sensitive Financial Accounting Data in Plain Sight using Deep Autoencoder Neural Networks"**, AAAI 2021 Workshop on Knowledge Discovery from Unstructured Data in Financial Services, Virtual, 2021. [[paper](https://www.alexandria.unisg.ch/261665/1/AAAI_2021_preprint.pdf)]
+> M. Schreyer, C. Schulze, and D. Borth, **"Leaking Sensitive Financial Accounting Data in Plain Sight using Deep Autoencoder Neural Networks"**, AAAI 2021 Workshop on Knowledge Discovery from Unstructured Data in Financial Services, Virtual, 2021. [[paper](https://www.alexandria.unisg.ch/261665/1/AAAI_2021_preprint.pdf)][[slides](https://github.com/HSG-AIML/HSG-AIML.github.io/blob/master/slides/2021-02-08_AAI_KDF_2021.pdf)]
+
+{% include figure.html url="/images/research/adversarial_learning_leakage_900x266.png" 
+description="The data leakage process introduced, applied to learn a steganographic model of real-world accounting data. The process is designed to encode and decode sensitive Enterprise Resource Planing (ERP) system information into unobtrusive ‘day-to-day’ cover images." %}
