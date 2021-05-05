@@ -15,9 +15,7 @@ tags: remote_sensing climate_change air pollution regression
 ---
 {% include figure.html
 url="/images/2021-04-07-A_Novel_Dataset_for_the_Estimation_of_Surface_NO2_Concentrations_from_Remote_Sensing_data/figure1.png"
-description="The NO2 dataset consists of spatially and temporally aligned measurements from the ESA Sentinel-5P satellite, EEA air quality stations on the ground and supplementray data." %}
-
-NO2 is an atmospheric trace gas that contributes to global warming as a precursor of greenhouse gases and has adverse effects on human health. This work present a novel dataset of NO2 measurements from air quality stations on the ground, temporally and spatially aligned with NO2 measurements from space by the ESA Sentinel-5P satellite. Additionally, geographic and meteorological variables as well as information on lockdown measures are included. The dataset offers access to diverse data on NO2, and facilitates data-driven research into the dynamics of NO2 pollution.
+description="The NO2 dataset consists of spatially and temporally aligned measurements from the ESA Sentinel-5P satellite, EEA air quality stations on the ground and supplementray data." %} NO2 is an atmospheric trace gas that contributes to global warming as a precursor of greenhouse gases and has adverse effects on human health. This work present a novel dataset of NO2 measurements from air quality stations on the ground, temporally and spatially aligned with NO2 measurements from space by the ESA Sentinel-5P satellite. Additionally, geographic and meteorological variables as well as information on lockdown measures are included. The dataset offers access to diverse data on NO2, and facilitates data-driven research into the dynamics of NO2 pollution.
 
 We showcase the value of the dataset with two applications. Firstly, the prediction of surface NO2 concentrations with gradient boosting which enables the identification of EU NO2 exposure limit breaches. Secondly, we investigate the influence of COVID-19 lockdowns on air quality in Europe and find a significant decrease in NO2 levels when lockdown measures are in place.
 
