@@ -4,14 +4,15 @@ date: 2021-04-07
 layout: post
 title: A Novel Dataset for the Prediction of Surface NO2 Concentrations from Remote Sensing Data
 itemtype: Conference
-publisher: IEEE International Symposium on Geoscience and Remote Sensing 2021 (IGARSS)
+publisher: IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2021
+puburl: https://igarss2021.com/view_paper.php?PaperNum=3638
 #puburl: https://arxiv.org/abs/2011.11344
 #pdfurl: https://arxiv.org/pdf/2011.11344
 #dataurl: https://github.com/HSG-AIML/NO2-dataset
 
 contactemail: linus.scheibenreif@unisg.ch	
 language: English
-tags: remote_sensing climate_change air pollution regression 
+tags: remote_sensing climate_change air_pollution regression 
 ---
 {% include figure.html
 url="/images/2021-04-07-A_Novel_Dataset_for_the_Estimation_of_Surface_NO2_Concentrations_from_Remote_Sensing_Data/figure1.png"
