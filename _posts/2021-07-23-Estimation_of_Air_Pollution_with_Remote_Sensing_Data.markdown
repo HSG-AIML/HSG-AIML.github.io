@@ -2,7 +2,7 @@
 authors: <strong>Linus Scheibenreif</strong>, Michael Mommert, Damian Borth
 date: 2021-07-23
 layout: post
-title: Estimation of Air Pollution with Remote Sensing Data Revealing Greenhouse Gas Emissions from Space
+title: 'Estimation of Air Pollution with Remote Sensing Data: Revealing Greenhouse Gas Emissions from Space'
 itemtype: Conference
 publisher: Tackling Climate Change with Machine Learning workshop at ICML 2021 
 puburl: https://www.climatechange.ai/papers/icml2021/23 
