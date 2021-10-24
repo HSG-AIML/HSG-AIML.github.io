@@ -42,7 +42,7 @@ description="VQ-VAE vector quantisation of payments and corresponding audit samp
 > M. Schreyer, T. Sattarov, and D. Borth, **"Multi-view Contrastive Self-Supervised Learning of Accounting Data Representations for Downstream Audit Tasks"**, ACM International Conference on AI in Finance, London, UK, 2021. [[paper](https://www.alexandria.unisg.ch/264493/1/ICAIF_2021_finale.pdf)]
 
 {% include figure.html url="/images/research/self_supervised_learning-900x317.png" 
-description=" Learned task invariant accounting data representations z<sub>i</sub> $\in \mathcal{R}^{2}$ with &tau; = 0.5 of the 238,894 City of Philadelphia vendor payments. The visualisations on the left show the representations coloured according to selected payment characteristics: payment type (a) and posting month (b). The visualisations on the right show the same representations coloured according to the downstream audit task: anomaly detection (c) and audit sampling (d)." %}
+description=" Learned task invariant accounting data representations z<sub>i</sub> in R<sup>2</sup> with &tau; = 0.5 of the 238,894 City of Philadelphia vendor payments. The visualisations on the left show the representations coloured according to selected payment characteristics: payment type (a) and posting month (b). The visualisations on the right show the same representations coloured according to the downstream audit task: anomaly detection (c) and audit sampling (d)." %}
 
 ## Adversarial Learning
 
