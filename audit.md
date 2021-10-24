@@ -39,6 +39,11 @@ description="Adversarial Autoencoder latent space distribution with progressing 
 {% include figure.html url="/images/research/representation_learning_sampling-900x311.png" 
 description="VQ-VAE vector quantisation of payments and corresponding audit samples represented by the models learned embeddings e<sub>k</sub>, for k = argmin<sub>j</sub> ||z<sub>e</sub>(x)−e<sub>j</sub>||<sub>2</sub>. For each entry x<sub>i</sub> VQ-VAE infers a low-dimensional representation z<sub>e</sub> in the latent space Z. The distinct representations z<sub>e</sub> are quantised z<sub>q</sub> by the embeddings e<sub>k</sub>." %}
 
+> M. Schreyer, T. Sattarov, and D. Borth, **"Multi-view Contrastive Self-Supervised Learning of Accounting Data Representations for Downstream Audit Tasks"**, ACM International Conference on AI in Finance, London, UK, 2021. [[paper](https://www.alexandria.unisg.ch/264493/1/ICAIF_2021_finale.pdf)]
+
+{% include figure.html url="/images/research/self_supervised_learning-900x317.png" 
+description=" Learned task invariant accounting data representations z<sub>i</sub> $\in \mathcal{R}^{2}$ with &tau; = 0.5 of the 238,894 City of Philadelphia vendor payments. The visualisations on the left show the representations coloured according to selected payment characteristics: payment type (a) and posting month (b). The visualisations on the right show the same representations coloured according to the downstream audit task: anomaly detection (c) and audit sampling (d)." %}
+
 ## Adversarial Learning
 
 {% include figure_header.html url="/images/research/adversarial_learning_header-900x460.png" 
