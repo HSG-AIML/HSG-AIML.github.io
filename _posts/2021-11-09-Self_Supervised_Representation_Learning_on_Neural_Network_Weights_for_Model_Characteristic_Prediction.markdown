@@ -49,7 +49,7 @@ language: English
 # - task (e.g, classification, segmentation, representation learning, ...)
 # important note: if your tag contains a whitespace, please replace the
 # whitespace by an underscore!
-tags: Representation_Learning, Self-Supervised_Learning, Weight_Space, Parameter_Space, Augmentation, Model_Zoos
+tags: Representation_Learning Self-Supervised_Learning Weight_Space Parameter_Space Augmentation Model_Zoos
 ---
 
 <!-- ![alt text](/images/2021-11-09-Self-Supervised_Representation_Learning_on_Neural_Network_Weights_for_Model_Characteristic_Prediction/scheme_v2.png) -->
@@ -69,7 +69,7 @@ Our goal is to learn task-agnostic, rich representations from populations of NN 
 
 # Approach
 Self-Supervised Learning is able to reveal latent structure in complex data without the need of labels. We propose a novel approach to apply SSL to learn representations of the weights of NN populations, as outlined in the scheme above. 
-We introduce three augmentation methods for NN weights. In particular, the permutation augmentation leverages symmetries of the NN weight space to create samples that are equivariant in forward and backward pass. Empirically, we find teh permutation augmentation necessary to learn generalizing representations. 
+We introduce three augmentation methods for NN weights. In particular, the permutation augmentation leverages symmetries of the NN weight space to create samples that are equivariant in forward and backward pass. Empirically, we find the permutation augmentation necessary to learn generalizing representations. 
 Further, we propose an attention-based architecture, which understands NN models as sequences of components, i.e., sequences of neurons. As SSL tasks, we evaluate reconstruction, a contrastive loss, and a combination of both.
 As evaluation, we predict model characteristics, such as accuracy, epoch, or hyperparamters, from the learned representations.  
 
