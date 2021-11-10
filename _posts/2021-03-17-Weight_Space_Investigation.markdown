@@ -49,7 +49,7 @@ language: English
 # - task (e.g, classification, segmentation, representation learning, ...)
 # important note: if your tag contains a whitespace, please replace the
 # whitespace by an underscore!
-tags: Neural Networks, Weight Space, Parameter Space, Monitoring, Versioning
+tags: Neural_Networks Weight_Space Parameter_Space Monitoring Versioning
 ---
 {% include figure.html
 url="/images/2021-03-17-weight_space_investigation/scheme.png"
