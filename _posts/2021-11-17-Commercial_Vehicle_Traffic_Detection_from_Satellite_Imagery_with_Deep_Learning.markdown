@@ -21,7 +21,7 @@ itemtype: Conference Paper
 
 # name of publisher/journal/conference; feel free to add additional
 # information like volume number, page number, ...
-publisher:  NeurIPS'20 - Workshop on Tackling Climate Change with Machine Learning
+publisher:  ICML'21 - Workshop on Tackling Climate Change with Machine Learning
 
 # url to the official publication (could be conference, journal, arxiv)
 puburl: https://www.climatechange.ai/papers/icml2021/19
