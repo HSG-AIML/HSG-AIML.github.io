@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1cb88c837c0e43de8b34e5e5e91e0ac7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    Mine ID: <strong>01156</strong>, Southern hemisphere, <strong>Gold</strong> mine, lon/lat = +121.24227,-30.72647, <a href="http://www.google.com/maps/place/-30.72647193607809,121.2422731415866">Google Maps</a>
+    
+            <div class="folium-map" id="map_1cb88c837c0e43de8b34e5e5e91e0ac7" ></div>
+        
+</body>
+<script>    
+    
+            var map_1cb88c837c0e43de8b34e5e5e91e0ac7 = L.map(
+                "map_1cb88c837c0e43de8b34e5e5e91e0ac7",
+                {
+                    center: [-30.72647193607809, 121.2422731415866],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a0d24d7b69eb4727b98aca5a23d21f09 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1cb88c837c0e43de8b34e5e5e91e0ac7);
+        
+    
+            var tile_layer_e6321f41046b427bb03d25b12b25cbe2 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Esri", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1cb88c837c0e43de8b34e5e5e91e0ac7);
+        
+    
+
+        function geo_json_81c17f7045a345c188ea42e63ef9e5e9_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_81c17f7045a345c188ea42e63ef9e5e9 = L.geoJson(null, {
+                onEachFeature: geo_json_81c17f7045a345c188ea42e63ef9e5e9_onEachFeature,
+            
+        });
+
+        function geo_json_81c17f7045a345c188ea42e63ef9e5e9_add (data) {
+            geo_json_81c17f7045a345c188ea42e63ef9e5e9
+                .addData(data)
+                .addTo(map_1cb88c837c0e43de8b34e5e5e91e0ac7);
+        }
+            geo_json_81c17f7045a345c188ea42e63ef9e5e9_add({"bbox": [121.23146999999997, -30.735785988503128, 121.25112500000006, -30.71586498849384], "features": [{"bbox": [121.23146999999997, -30.735785988503128, 121.25112500000006, -30.71586498849384], "geometry": {"coordinates": [[[121.23146999999997, -30.726711988498927], [121.23825099999999, -30.721288988496383], [121.24022500000001, -30.717709988494708], [121.24503100000001, -30.71586498849384], [121.25112500000006, -30.730178988500537], [121.24408699999996, -30.735785988503128], [121.24168399999998, -30.735269988502914], [121.23146999999997, -30.726711988498927]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+</script>
