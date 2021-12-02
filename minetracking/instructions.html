@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MineTracking Labeling Instruction Sheet</title>
+    <style>
+      pre {
+          overflow-x: auto;
+          white-space: pre-wrap;
+          white-space: -moz-pre-wrap;
+          white-space: -pre-wrap;
+          white-space: -o-pre-wrap;
+          word-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MineTracking Labeling Instruction Sheet</h1>
+    Please find below the instruction for our MineTracking Labeling project. This website will be kept up to date. Changes will be highlighted in the following Changelog, so you can see whether there have been any recent changes to the instrutions.
+
+    <h1>Changelog</h1>
+    <ul>
+      <li>2021-12-02: initial instructions posted</li>
+
+    </ul>
+
+    <h1>Labeling instruction</h1>
+    The following instructions are not definitive, but they should enable a somewhat efficient workflow. If you have any comments on the proposed workflow, please let us know!
+
+    <h2>Data preparation</h2>
+    You will be able to download image data in the form of a zip file. In this zip file you will find different directories, corresponding to different mining sites. The number of observations for each mine might differ - in the best case there should be 12 images or more, but it's ok if there are fewer images. To give you some guidance, the image filename contain the mining site id, the image number for this site in chronological order and the time of observation.
+
+    <p>Before starting the labeling of the data, please inspect and clean the image data in the following way:</p>
+    <ul>
+      <li>For each directory (mining site), please open each image and check for image quality and the presence of clouds.</li>
+      <li>Please delete images that are incomplete (large blank areas) or contain large-scale image artifacts that make it impossible to see the surface of the Earth.</li>
+      <li>Please delete images in which clouds obstruct the mining sites. It is ok if there are clouds present in the image, but they should not obstruct the areas we are interested in.</li>
+      <li>For the remaining images, please make sure that there is at least 3 months between the different observations; if two images are less than 3 months apart, please delete the later image. If that introduces gaps of more than 3 months for subsequent images, that's fine. </li>
+      <li>Finally, please select a set of max 12 images covering the longest possible date range. If you end up with fewer than 12 images based on the data preparation process, this is perfectly fine!</li>
+    </ul>
+
+    As a result you will define a set of images that you will label in the following.
+
+    <h2>Familiarize yourself with the mine</h2>
+
+    You will always label one mine at a time. This will make it easier for you to label the data consistently.  
+
+    <ul>
+      <li>Please open all images with an image viewer and cycle through the different images. You might notice changes in the outline of the mine or its pits. Keep the image viewer open during the labeling process, it will help you to better identify changes and at what time (in which image) they happened.</li>
+      <li>For each mining site we provide an <a href="http://hsg.ai/minetracking">helper website</a> with some information, a high-resolution satellite image and previously derived outline information. On the very top of the website, there is information of the mine type and its location, as well as a link to this location in Google maps. Let the existing outlines guide you in identifying the extent of the mine, but keep in mind that this information might be outdated or simply of low quality.</li>
+      <li>Be aware of the hemisphere of the mine (you will only label data for the same hemisphere): on the Northern hemisphere shadows appear below (South of) depressions like pits, on the Southern hemisphere they appear on top (North of) of depressions.</li>
+    </ul>
+
+    <h2>Label data with label-studio</h2>
+
+    You will label the images with the <a href="https://labelstud.io/">label-studio</a> tool. Please use the following template code for the labeling interface as discussed during our workshop:
+    <pre>
+&lt;View&gt;
+  &lt;Header value="$image"/&gt;
+  &lt;Image name="image" value="$image" zoom="true"/&gt;
+  &lt;PolygonLabels name="label" toName="image" strokeWidth="3" pointSize="small" opacity="0.9"&gt;
+    &lt;Label value="Pit" background="red"/&gt;
+    &lt;Label value="Infrastructure" background="blue"/&gt;
+    &lt;Label value="Outline" background="yellow"/&gt;
+  &lt;/PolygonLabels&gt;
+&lt;/View&gt;
+    </pre>
+
+    <ul>
+      <li>Load the image data of the mine that you familiarized yourself with into label-studio, tag those new data points within label-studio and start the labeling process. (This will make sure that you only get the data for this one mine to label at a time)</li>
+      <li> Keep in mind that the image might not be presented to you in a chronological order.</li>
+      <li> Start by labeling the pit and infrastructure parts of the mine. Use the helper website to identify those features.</li>
+      <li> Label the mine outlines last. </li>
+      <li> Make sure to "submit" your labels.</li>
+      <li> Try to finish a single mine in one run to save time.</li>
+      <li> Once you are done. Start the entire process for the next mine.</li>
+    </ul>
+
+    <h1>Data submission</h1>
+    Once you are done with (a significant part of) your dataset, please submit your results by using label-studio's export function. Please submit your results as a json file. 
+    
+  </body>
+</html>
