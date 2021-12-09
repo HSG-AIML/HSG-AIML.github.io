@@ -25,7 +25,7 @@ itemtype: Conference Paper
 publisher: NeurIPS 2021 - 35th Conference on Neural Information Processing Systems, Sydney, Australia.
 
 # url to the official publication (could be conference, journal, arxiv)
-puburl: https://neurips.cc/Conferences/2021/Schedule?showEvent=27428
+puburl: https://neurips.cc/virtual/2021/poster/27428
 
 # url to some pdf that is freely accessible (e.g., arxiv)
 pdfurl: https://arxiv.org/abs/arXiv:2110.15288
