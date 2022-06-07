@@ -1,7 +1,9 @@
 ---
-title: Remote Sensing with Deep Neural Networks
+title: Computer Vision for Remote Sensing
 layout: page
 ---
+
+# Computer Vision for Remote Sensing
 
 Remote Sensing satellites generate vast amounts of data over a wide range of the electromagnetic spectrum. The 
 analysis of these data and the focused extraction of useful knowledge from them exceeds the capabilities of most
@@ -51,6 +53,11 @@ Pollution adversely affects human health as well as our environment. Unfortunate
 concentrations of NO2 and other trace gases, are not available on a global scale. By combining remote sensing data with
 ground-based measurements in a machine learning approach, we are able to estimate pollution levels on the ground where
 no in-situ data are available. 
+
+
+## Self-supervised Learning
+
+Self-supervised learning (SSL) opens an avenue to label-efficient training of deep learning models, by learning rich latent representations from large amounts of unlabeled data. SSL is a natural fit for remote sensing data, which offers almost unlimited amounts of multi-modal and temporally resolved data for such a training process. Our team has shown the usefulness of this approach for Earth observations data.
 
 More information coming soon!
 
