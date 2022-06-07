@@ -32,6 +32,8 @@ pdfurl: https://pdfs.semanticscholar.org/40b8/63abfe89b395491e7fe3476c0a9810a5aa
 # url to code repository (e.g., github)
 # codeurl: 
 
+posterurl: https://hsg-aiml.github.io/images/2022-06-07-Contrastive_Self-Supervised_Data_Fusion_for_Satellite_Imagery/poster-isprs.pdf
+
 # url to data repository (e.g., zenodo, github)
 # dataurl: 
 
