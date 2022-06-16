@@ -5,7 +5,7 @@
 
 # list of authors (first name, last name), comma separated
 # please put AIML researcher within <strong> XXX </strong> tags
-authors: <strong>Moritz Blattner</strong>, Michael Mommert, Damian Borth
+authors: <strong>Linus Scheibenreif</strong>, Michael Mommert, Damian Borth
 
 # date of publication (YYYY-MM-DD)
 date: 2022-06-07
