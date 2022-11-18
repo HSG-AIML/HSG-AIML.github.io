@@ -56,8 +56,7 @@ tags: Model_Zoos Population Hyper_Representation Representation_Learning Self-Su
 url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/header.png"
 description="Caption
 " %}
-Introduction
-====
+## Introduction
 Learning on populations of Neural Networks (NNs) has become an emerging topic in recent years. 
 The high dimensionality, non-linearity and non-convexity of NN training opens up exciting research questions investigating populations: 
 i) do individual models in populations have something in common? 
@@ -70,13 +69,12 @@ representations of the weights of model zoos. Further, we showed that these repr
 such as their accuracy, epoch or hyperparamters.   
 At this years NeurIPS, two more contributions in this research direction got accepted: 1) the Model Zoo Dataset to facilitate research in that domain; and 2) Generative Hyper Representations to sample new NN weights.
 
-Model Zoo Dataset
-====
+## Model Zoo Dataset
 Link:   https://modelzoos.cc   
 Paper:  https://arxiv.org/abs/2209.14764  
 Talk:   https://neurips.cc/virtual/2022/poster/55727  
 
-## Background
+### Background
 Research on populations of Neural Networks requires access to such populations. 
 While collections of models exist (i.e., model hubs like huggingface), they are usually unstructured, often small or contain only a small degree of diversity.
 For our own reserach and to facilitate reserach on model populations for the community at large, we therefore generated large, structured and diverse populations.
@@ -87,14 +85,14 @@ url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/m
 description="Schematic overview of the Model Zoo Generation.
 "%}
 
-## Dataset Generation
+### Dataset Generation
 All in all, there are (as of now) 27 model zoos, with 50'360 unique Neural Network models and over 3.8 Million model states. 
 The zoos are trained on 8 computer vision datasets (MNIST, F-MNIST, SVHN, USPS, STL, CIFAR10, CIFAR100, Tiny ImageNet), 
 using 3 architectures (small CNN, medium CNN and ResNet-18).
 To include different types of diversity, we vary different hyperparmaters for different zoos. In some, we vary only the random seed, in others also the initalization method, activation function, optimizer, learning rate, weight decay and dropout.   
 As sparsification has not yet been studied on a population level, we also include sparsified model zoo twins, for which all models in a zoo at their last epoch are iteratively sparsified with Variational Dropout (VD).
 
-## Potential Use-Cases
+### Potential Use-Cases
 {% include figure.html
 url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/model_zoo_use_cases.png"
 description="Potential use-cases for model zoos.
@@ -107,14 +105,13 @@ Lastly, such populations may allow to systematically study how to generate weigh
 
 
 
-Hyper-Representations as Generative Models: Sampling Unseen Neural Network Weights
-====
+## Hyper-Representations as Generative Models: Sampling Unseen Neural Network Weights
 Paper:  https://arxiv.org/abs/2209.14733   
 Talk:   https://neurips.cc/virtual/2022/poster/53429   
 Code:   https://github.com/HSG-AIML/NeurIPS_2022-Generative_Hyper_Representations   
 
 
-## Background
+### Background
 {% include figure.html
 url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/generative_hyper_reps_schematic.png"
 description="Schematic overview of Generative Hyper-Representations.
@@ -122,7 +119,7 @@ description="Schematic overview of Generative Hyper-Representations.
 In previous work, we showed that hyper-representations embed populations of models in a meaningful way, i.e., disentangling latent properties such as accuarcy, or training progress.
 For this project, we therefore investigated if such hyper-representations can be leveraged to generate new models with targeted properties.
 
-## Approach
+### Approach
 The approach is split in two parts: i) training hyper-representations and ii) sampling hyper-representations.
 In our experiments, we noticed that weight distributions often vary over the layers. That causes the loss contribution and thus reconstruction quality to be unequally distributed and results in poor model performance.
 To fix that, we introduce a layer-wise loss normalization, which improves the reconstruction of weights of all layers and drastically improves model accuracy, see Figure below. 
@@ -140,7 +137,7 @@ iii) by using a GAN.
 The sampled hyper-representations are then decoded to weights and loaded in models.
 
 
-## Results
+### Results
 We evaluate the generated weights by comparing their accuracy, in fine-tuning and transfer learning experiments as well as ensembles.
 
 First, we find that the sampling methods are specific: the choice of samlping method determines the accuracy bracket in which the sampled models end up in.
