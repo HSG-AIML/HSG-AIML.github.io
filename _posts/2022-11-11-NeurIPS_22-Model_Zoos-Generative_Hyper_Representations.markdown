@@ -5,7 +5,7 @@
 
 # list of authors (first name, last name), comma separated
 # please put AIML researcher within <strong> XXX </strong> tags
-authors: <strong>Konstantin Schürholt</strong>, Dimche Kostadinov, Damian Borth
+authors: <strong>Konstantin Schürholt</strong>, Diyar Taskiran, Boris Knyazev, Xavier Giro-i-Nieto, Damian Borth
 
 # date of publication (YYYY-MM-DD)
 date: 2022-11-11
@@ -22,7 +22,7 @@ itemtype: Conference Paper, Dataset
 
 # name of publisher/journal/conference; feel free to add additional
 # information like volume number, page number, ...
-publisher: NeurIPS 2022 - 36th Conference on Neural Information Processing Systems, Sydney, Australia.
+publisher: NeurIPS 2022 - 36th Conference on Neural Information Processing Systems, New Orleans, USA.
 
 # url to the official publication (could be conference, journal, arxiv)
 puburl: https://neurips.cc/virtual/2022/poster/53429
@@ -53,7 +53,7 @@ tags: Model_Zoos Population Hyper_Representation Representation_Learning Self-Su
 ---
 
 {% include figure.html
-url="/images/2021-11-09-Self-Supervised_Representation_Learning_on_Neural_Network_Weights_for_Model_Characteristic_Prediction/scheme_v2.png"
+url="/images/2021-11-09-Self-Supervised_Representation_Learning_on_Neural_Network_Weights_for_Model_Characteristic_Prediction/header.png"
 description="Caption
 " %}
 Introduction
