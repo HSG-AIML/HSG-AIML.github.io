@@ -14,7 +14,7 @@ date: 2022-11-11
 layout: post
 
 # title of the publication
-title: NeurIPS 2022: Model Zoo Datasets and Generative Hyper-Representations
+title: NeurIPS 2022 - Model Zoo Datasets and Generative Hyper-Representations
 
 # type of publication, please use captitalization (e.g., Journal Paper,
 # Conference Poster, Workshop Contribution, ...)
