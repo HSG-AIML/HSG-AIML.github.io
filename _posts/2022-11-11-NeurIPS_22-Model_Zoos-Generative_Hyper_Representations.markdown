@@ -62,16 +62,18 @@ i) do individual models in populations have something in common?
 ii) do models form meaningful structures in weight space? 
 iii) can representations be learned of such structures?
 iv) can such structures be exploited to generate new models?   
-At last year's NeurIPS, we took first steps to find answers to these questions with our (paper presenting hyper-representations.)[hsg.ai/neurips21]
+At last year's NeurIPS, we took first steps to find answers to these questions with our [paper presenting hyper-representations.](hsg.ai/neurips21)
 There, we showed that populations of models, called *model zoos*, are indeed structured. With hyper-representations, we proposed a self-supervised learning method to learn 
 representations of the weights of model zoos. Further, we showed that these representations are meaningful in the sense that they are predictive of model properties, 
 such as their accuracy, epoch or hyperparamters.   
 At this years NeurIPS, two more contributions in this research direction got accepted: 1) the Model Zoo Dataset to facilitate research in that domain; and 2) Generative Hyper Representations to sample new NN weights.
 
 ## Model Zoo Dataset
-Link:   https://modelzoos.cc   
-Paper:  https://arxiv.org/abs/2209.14764  
-Talk:   https://neurips.cc/virtual/2022/poster/55727  
+>Link:   [https://modelzoos.cc](https://modelzoos.cc])    
+>Paper:  [https://arxiv.org/abs/2209.14764](https://arxiv.org/abs/2209.14764)     
+>Talk:   [https://neurips.cc/virtual/2022/poster/55727](https://neurips.cc/virtual/2022/poster/55727)     
+
+
 
 ### Background
 Research on populations of Neural Networks requires access to such populations. 
@@ -104,9 +106,9 @@ Lastly, such populations may allow to systematically study how to generate weigh
 
 
 ## Hyper-Representations as Generative Models: Sampling Unseen Neural Network Weights
-Paper:  https://arxiv.org/abs/2209.14733   
-Talk:   https://neurips.cc/virtual/2022/poster/53429   
-Code:   https://github.com/HSG-AIML/NeurIPS_2022-Generative_Hyper_Representations   
+>Paper:  [https://arxiv.org/abs/2209.14733](https://arxiv.org/abs/2209.14733)   
+>Talk:   [https://neurips.cc/virtual/2022/poster/53429](https://neurips.cc/virtual/2022/poster/53429)   
+>Code:   [https://github.com/HSG-AIML/NeurIPS_2022-Generative_Hyper_Representations](https://github.com/HSG-AIML/NeurIPS_2022-Generative_Hyper_Representations)   
 
 
 ### Background
