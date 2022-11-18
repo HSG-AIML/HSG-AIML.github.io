@@ -53,7 +53,7 @@ tags: Model_Zoos Population Hyper_Representation Representation_Learning Self-Su
 ---
 
 {% include figure.html
-url="/images/2021-11-09-Self-Supervised_Representation_Learning_on_Neural_Network_Weights_for_Model_Characteristic_Prediction/header.png"
+url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/header.png"
 description="Caption
 " %}
 Introduction
@@ -72,9 +72,9 @@ At this years NeurIPS, two more contributions in this research direction got acc
 
 Model Zoo Dataset
 ====
-Link:   https://modelzoos.cc 
-Paper:  https://arxiv.org/abs/2209.14764
-Talk:   https://neurips.cc/virtual/2022/poster/55727
+Link:   https://modelzoos.cc   
+Paper:  https://arxiv.org/abs/2209.14764  
+Talk:   https://neurips.cc/virtual/2022/poster/55727  
 
 ## Background
 Research on populations of Neural Networks requires access to such populations. 
@@ -109,9 +109,9 @@ Lastly, such populations may allow to systematically study how to generate weigh
 
 Hyper-Representations as Generative Models: Sampling Unseen Neural Network Weights
 ====
-Paper:  https://arxiv.org/abs/2209.14733
-Talk:   https://neurips.cc/virtual/2022/poster/53429
-Code:   https://github.com/HSG-AIML/NeurIPS_2022-Generative_Hyper_Representations
+Paper:  https://arxiv.org/abs/2209.14733   
+Talk:   https://neurips.cc/virtual/2022/poster/53429   
+Code:   https://github.com/HSG-AIML/NeurIPS_2022-Generative_Hyper_Representations   
 
 
 ## Background
