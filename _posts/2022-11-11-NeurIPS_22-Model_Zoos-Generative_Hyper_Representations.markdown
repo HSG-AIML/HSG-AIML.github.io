@@ -96,7 +96,7 @@ As sparsification has not yet been studied on a population level, we also includ
 
 ## Potential Use-Cases
 {% include figure.html
-url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/model_zoo_use_cases.png
+url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/model_zoo_use_cases.png"
 description="Potential use-cases for model zoos.
 "%}
 As the domain of model populations is still somewhat new, we also consider potential use-cases for model populations. 
@@ -116,7 +116,7 @@ Code:   https://github.com/HSG-AIML/NeurIPS_2022-Generative_Hyper_Representation
 
 ## Background
 {% include figure.html
-url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/generative_hyper_reps_schematic.png
+url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/generative_hyper_reps_schematic.png"
 description="Schematic overview of Generative Hyper-Representations.
 "%}
 In previous work, we showed that hyper-representations embed populations of models in a meaningful way, i.e., disentangling latent properties such as accuarcy, or training progress.
@@ -127,7 +127,7 @@ The approach is split in two parts: i) training hyper-representations and ii) sa
 In our experiments, we noticed that weight distributions often vary over the layers. That causes the loss contribution and thus reconstruction quality to be unequally distributed and results in poor model performance.
 To fix that, we introduce a layer-wise loss normalization, which improves the reconstruction of weights of all layers and drastically improves model accuracy, see Figure below. 
 {% include figure.html
-url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/lwln_eval.png
+url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/lwln_eval.png"
 description="Top: baseline hyper-representation. Weight distributions of original and reconstructed weights do not match, consequently the reconstrcuted models have very low accuracy. Bottom: Hyper-representation trained with layer-wise loss norm. Reconstructed weight distributions match the original and have drastically improved accuracy.
 "%}
 
@@ -145,7 +145,7 @@ We evaluate the generated weights by comparing their accuracy, in fine-tuning an
 
 First, we find that the sampling methods are specific: the choice of samlping method determines the accuracy bracket in which the sampled models end up in.
 {% include figure.html
-url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/sampling_fine_tuning.png
+url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/sampling_fine_tuning.png"
 description="
 Left: Accuracy comparison of different sampling methods. By choosing different methods, accuracy brackets can be targeted. Right: Accuracy of populations during fine-tuning. Sampled populations $S_{KDE30}$ after a single epoch often outperforms the baselines with considerable more epochs.
 "%}
@@ -156,7 +156,7 @@ However, we were curious if hyper-representations generalize beyond their task a
 Surprisingly, they do. In a transfer-learning setup, sampled weights outperform or match strong baselines. 
 What is more, the generated weights generalize even to architecute changes and outperform training from scratch by a large margin.
 {% include figure.html
-url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/generalization.png
+url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/generalization.png"
 description="
 Left: Accuracy of populations in a transfer learning setup. The sampled populations outperform both training from scratch as well as transfer-learning from pre-trained models. Right: generalization to variations in the architecture. Sampled weights considerably outperform training from scratch.
 "%}
