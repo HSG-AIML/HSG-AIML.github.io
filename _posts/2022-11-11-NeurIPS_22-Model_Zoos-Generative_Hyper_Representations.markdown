@@ -54,8 +54,7 @@ tags: Model_Zoos Population Hyper_Representation Representation_Learning Self-Su
 
 {% include figure.html
 url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/header.png"
-description="Caption
-" %}
+description="At this year's Neurips, we present Model Zoo Datasets and Generative Hyper-Representations." %}
 ## Introduction
 Learning on populations of Neural Networks (NNs) has become an emerging topic in recent years. 
 The high dimensionality, non-linearity and non-convexity of NN training opens up exciting research questions investigating populations: 
@@ -82,8 +81,7 @@ The model zoos are an open source blueprint, so that they can be replicated, cha
 
 {% include figure.html
 url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/model_zoo_schematic.png"
-description="Schematic overview of the Model Zoo Generation.
-"%}
+description="Schematic overview of the Model Zoo Generation."%}
 
 ### Dataset Generation
 All in all, there are (as of now) 27 model zoos, with 50'360 unique Neural Network models and over 3.8 Million model states. 
