@@ -52,7 +52,7 @@ language: English
 tags: Model_Zoos Population Hyper_Representation Representation_Learning Self-Supervised_Learning Weight_Space Parameter_Space Initialization Model_Generation Generative_Learning Transfer_Learning Finetuning
 ---
 
-{% include figure.html0
+{% include figure.html
 url="/images/2021-11-09-Self-Supervised_Representation_Learning_on_Neural_Network_Weights_for_Model_Characteristic_Prediction/scheme_v2.png"
 description="Caption
 " %}
@@ -97,7 +97,8 @@ As sparsification has not yet been studied on a population level, we also includ
 ## Potential Use-Cases
 {% include figure.html
 url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/model_zoo_use_cases.png
-description="Potential use-cases for model zoos."%}
+description="Potential use-cases for model zoos.
+"%}
 As the domain of model populations is still somewhat new, we also consider potential use-cases for model populations. 
 They include model analysis, i.e., the prediction of model properties based on populations, where already some work has been done.
 Similarly, populations could be used to investigate the learning dynamics of models further, and extend methods like Population Based Training.
@@ -116,7 +117,8 @@ Code:   https://github.com/HSG-AIML/NeurIPS_2022-Generative_Hyper_Representation
 ## Background
 {% include figure.html
 url="/images/2022-11-11-NeurIPS_22-Model_Zoos-Generative_Hyper_Representations/generative_hyper_reps_schematic.png
-description="Schematic overview of Generative Hyper-Representations."%}
+description="Schematic overview of Generative Hyper-Representations.
+"%}
 In previous work, we showed that hyper-representations embed populations of models in a meaningful way, i.e., disentangling latent properties such as accuarcy, or training progress.
 For this project, we therefore investigated if such hyper-representations can be leveraged to generate new models with targeted properties.
 
