@@ -76,13 +76,13 @@ description="Rate Accuracy of Emotion Intensities. Min, Median and Max are three
 The first subjective experiment shows that when the spoken content is the same, listeners find it easier to discern differences in intensity in the speech synthesized by our model.
 
 {% include figure.html
-url="/images/images/2023-06-04-Fine_Grained_Emotional_Control_of_Text_To_Speech_Learning_To_Rank_Inter_And_Intra_Class_Emotion_Intensities/Preference.png"
+url="/images/2023-06-04-Fine_Grained_Emotional_Control_of_Text_To_Speech_Learning_To_Rank_Inter_And_Intra_Class_Emotion_Intensities/Preference.png"
 description="Preference test for emotion expressiveness" %}
 
 Another subjective experiment is the A/B preference test on emotion expressiveness. The results indicate that listeners tend to perceive the expression of emotion as clearer in the speech synthesized by our model.
 
 {% include figure.html
-url="/images/images/2023-06-04-Fine_Grained_Emotional_Control_of_Text_To_Speech_Learning_To_Rank_Inter_And_Intra_Class_Emotion_Intensities/MOS.png"
+url="/images/2023-06-04-Fine_Grained_Emotional_Control_of_Text_To_Speech_Learning_To_Rank_Inter_And_Intra_Class_Emotion_Intensities/MOS.png"
 description="Preference test for emotion expressiveness" %}
 
 Finally, Mean Cepstral Distortion (MCD) and Naturalness Mean Opinion Score (MOS) evaluations are conducted on all synthesized samples. The results show that the quality and naturalness of the speech synthesized by our model surpass all baseline models.
