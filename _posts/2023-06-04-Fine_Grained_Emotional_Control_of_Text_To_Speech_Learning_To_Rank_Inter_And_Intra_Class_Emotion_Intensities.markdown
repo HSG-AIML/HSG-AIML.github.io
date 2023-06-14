@@ -14,7 +14,7 @@ date: 2023-02-15
 layout: post
 
 # title of the publication
-title: Fine-grained Emotional Control of Text-To-Speech: Learning To Rank Inter- And Intra-Class Emotion Intensities
+title: Fine-grained Emotional Control of Text-To-Speech Learning To Rank Inter- And Intra-Class Emotion Intensities
 
 # type of publication, please use captitalization (e.g., Journal Paper,
 # Conference Poster, Workshop Contribution, ...)
