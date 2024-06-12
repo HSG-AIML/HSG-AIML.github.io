@@ -106,4 +106,4 @@ In our experiments, SLR adapters outperform parameter efficient fine-tuning meth
 Additionally, SLR adapter facilitate few-shot learning through their scaling vectors, which can be adjusted effectively on very small datasets. We also find that self-supervised training of the adapters before supervised fine-tuning improves downstream performance, even without access to additional unlabeled data.
 
 ## Conclusion
-We present a new method to adapt foundation models to unseen modalities while avoiding costly fine-tuning. This enables supervised training of large models with a limited number of labeled samples.
+We present a new method to adapt foundation models to unseen modalities while avoiding costly fine-tuning. This enables supervised training of large models with a limited number of labeled samples and improves downstream performance on new modalities.
