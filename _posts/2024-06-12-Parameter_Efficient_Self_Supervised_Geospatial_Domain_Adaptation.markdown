@@ -56,7 +56,7 @@ tags: self-supervised_learning remote_sensing parameter-efficient_training
 
 <figure display="block" margin-left="auto" margin-right="auto">
 <center>
-<img class="center-block" width="150%" src="/images/2024-06-13-Parameter_Efficient_Self_Supervised_Geospatial_Domain_Adaptation/overview_v2.pdf" alt="overview_figure">
+<img class="center-block" width="150%" src="/images/2024-06-13-Parameter_Efficient_Self_Supervised_Geospatial_Domain_Adaptation/overview_v2.PNG" alt="overview_figure">
 </center>
 <figcaption>We propose a method to adapt pre-trained visual foundation models to unseen remote sensing modalities in three steps: First, we add additional parameters, called SLR Adapters, to the foundation model. Then, the new parameters are trained with a masked autoencoding objective  on unlabeled data from the new domain. Finally, the adapter parameters are fine-tuned in supervised fashion for the task of interest.</figcaption>
 </figure>
@@ -72,7 +72,7 @@ We propose a method that adapts existing foundation models to new modalities by 
 
 <figure display="block" margin-left="auto" margin-right="auto">
 <center>
-<img class="center-block" width="50%" src="/images/2024-06-13-Parameter_Efficient_Self_Supervised_Geospatial_Domain_Adaptation/slr.pdf" alt="slr_figure">
+<img class="center-block" width="50%" src="/images/2024-06-13-Parameter_Efficient_Self_Supervised_Geospatial_Domain_Adaptation/slr.PNG" alt="slr_figure">
 </center>
 <figcaption>Transformer block (left) with SLR adapters (right). We add individual SLR adapters to linear transformations in the <em>qkv</em> projection and <em>mlp</em> layers of the transformer block. SLR freezes the original transform <b>W</b><sub>i</sub> and introduces trainable scaling parameters <b>s</b><sub>i</sub><sup>1,2</sup> and low-rank matrices <b>W</b><sub>i</sub><sup>1,2</sup>.</figcaption>
 </figure>
@@ -84,7 +84,7 @@ The adapters are trained with a masked-autoencoding approach on unlabeled data f
 
 <figure display="block" margin-left="auto" margin-right="auto">
 <center>
-<img class="center-block" width="80%" src="/images/2024-06-13-Parameter_Efficient_Self_Supervised_Geospatial_Domain_Adaptation/avg_acc_v3.pdf" alt="avg_acc_figure">
+<img class="center-block" width="80%" src="/images/2024-06-13-Parameter_Efficient_Self_Supervised_Geospatial_Domain_Adaptation/avg_acc_v3.PNG" alt="avg_acc_figure">
 </center>
 <figcaption>Average performance (colored bars) and number of trainable parameters (gray bars) for different visual foundation models across 8 remote sensing datasets. Our Scaled Low-Rank (SLR) adapter method achieves significant performance improvements across datasets and models with no (SLR Linear) and as little as 1-2% (SLR fine-tuned) additional parameters.</figcaption>
 </figure>
@@ -93,7 +93,7 @@ We test our method across different remote sensing datasets and visual foundatio
 
 <figure display="block" margin-left="auto" margin-right="auto">
 <center>
-<img class="center-block" width="80%" src="/images/2024-06-13-Parameter_Efficient_Self_Supervised_Geospatial_Domain_Adaptation/seg.pdf" alt="seg_figure">
+<img class="center-block" width="80%" src="/images/2024-06-13-Parameter_Efficient_Self_Supervised_Geospatial_Domain_Adaptation/seg.PNG" alt="seg_figure">
 </center>
 <figcaption>Segmentation examples on Sentinel-1 SAR imagery from the BENGE-8k dataset. Predictions for 8 different land-cover classed obtained with SatMAE combined with a FCN segmentation head. Comparisons between full SatMAE fine-tuning and fine-tuning of SLR adapters.</figcaption>
 </figure>
